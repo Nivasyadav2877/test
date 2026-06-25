@@ -1,0 +1,6 @@
+{
+  "name": "YSR Kadapa Smart Policing Dashboard",
+  "description": "Executive decision-support dashboard for the Superintendent of Police, YSR Kadapa District, Andhra Pradesh, to monitor and benchmark police station performance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

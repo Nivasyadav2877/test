@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Mono", monospace;
+  --font-mono: "Space Mono", monospace;
+  --font-display: "Syne", sans-serif;
+  
+  --color-brand-bg: #F8F7F4;
+  --color-brand-ink: #1D1818;
+  --color-brand-accent: #E84855;
+  --color-brand-accent-muted: rgba(232, 72, 85, 0.1);
+  --color-brand-accent-hover: #D83B47;
+  
+  --color-brand-green: #2EC4B6;
+  --color-brand-green-muted: rgba(46, 196, 182, 0.1);
+  --color-brand-amber: #FF9F1C;
+  --color-brand-amber-muted: rgba(255, 159, 28, 0.1);
+}
+
+body {
+  background-color: #F8F7F4;
+  color: #1D1818;
+  font-family: "Space Mono", monospace;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Custom Scrollbar for executive styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.03);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(29, 24, 24, 0.2);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(29, 24, 24, 0.4);
+}
+
+::selection {
+  background-color: #E84855;
+  color: #F8F7F4;
+}
